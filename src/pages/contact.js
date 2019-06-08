@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 export default function contact() {
     return (
-        <div>
-            hello from the contact page!!!
-        </div>
+            <Layout>
+                hello from the contact page!!!
+            </Layout>
     )
 }
