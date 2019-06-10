@@ -9,7 +9,8 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.links}>
                 {links.map((item, i) => {
-                    return (<Link key={i} to={item.path}>
+                    return (
+                        <Link key={i} to={item.path}>
                         {item.text}
                     </Link>
                     )
